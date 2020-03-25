@@ -24,7 +24,7 @@ navbar-links:
   Tools & Weapons:
     - Toolbox: "toolbox"
     - Weapon Chest: "weaponchest"
-  Blog: "https://www.CloudSparkle.be"
+  Blog: "https://www.cloudsparkle.be/blog-staging/"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -117,7 +117,7 @@ share-links-active:
 # --- Comments --- #
 
 # Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-# disqus: ""
+disqus: "@disqus_sTUZ9x6ITd"
 
 # If you want to use JustComments fill with the API Key
 #just-comments: "ABCD-EFGH-IJKL"
