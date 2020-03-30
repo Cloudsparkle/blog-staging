@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Toolbox: CopyADGroupMembers"
-categories: "Toolbox"
 tag: Powershell, Active Directory
 ---
-Another easy, simple addition to my Toolbox: a PowerShell script to copy group members from one AD group to another.
+Toolbox #001: a PowerShell script to copy group members from one AD group to another.
 
 > *This post was originally posted on Carl Webster's site [here](https://carlwebster.com/bart-jacobss-toolbox-copyadgroupmembers/)*
 
@@ -19,5 +18,4 @@ For example, the script checks if you selected the same AD group as source and d
 Finally, Github is all the rage right now, so I thought I would give it a go.
 You can find the Repo [here](https://github.com/Cloudsparkle/CopyADGroupMembers).
 
-I'll try to get this uploaded to the PowerShell Gallery as well.
-> *Update: I have successfully published the script [here](https://www.powershellgallery.com/packages/CopyADGroupMembers/1.0).*
+> *I have also successfully published the script to the Powershell Gallery [here](https://www.powershellgallery.com/packages/CopyADGroupMembers/1.0).*
