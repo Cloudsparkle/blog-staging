@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 'Toolbox'
+subtitle: The tools I've developed over time
 ---
 
 {%- capture site_tags -%}
@@ -10,9 +11,9 @@ title: 'Toolbox'
 {%- endcapture -%}
 {%- assign tags_list = site_tags | split:',' | sort -%}
 
-<<body>
+
 Test
-</body>
+
 
 <div id="full-tags-list">
 {%- for tag in tags_list -%}
