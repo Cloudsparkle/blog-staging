@@ -4,16 +4,16 @@ title: 'Toolbox Index'
 ---
 
 {%- capture site_tags -%}
-    {%- for tag in site.tags.Toolbox -%}
-      {%- if tag[0] == "Toolbox" -%}
-        {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%}
-      {%- endif -%}  
+    {%- for tag in site.tags -%}
+      {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%}
     {%- endfor -%}
 {%- endcapture -%}
 {%- assign tags_list = site_tags | split:',' | sort -%}
 
 {%- for tag in tags_list -%}
+  {%- if tag[0] == "Toolbox" -%}
     <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
+  {%- endif -%}
 {%- endfor -%}
 
 <div id="full-tags-list">
