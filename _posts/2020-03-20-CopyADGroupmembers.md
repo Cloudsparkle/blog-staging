@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Toolbox: CopyADGroupMembers"
-image: /img/powershell-logo.png
+image: /img/powershell2.png
 tag: Powershell, Active Directory
 ---
 > *This post was originally posted on Carl Webster's site [here](https://carlwebster.com/bart-jacobss-toolbox-copyadgroupmembers/)*
