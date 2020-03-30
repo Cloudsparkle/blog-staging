@@ -5,7 +5,9 @@ title: 'Toolbox Index'
 
 {%- capture site_tags -%}
     {%- for tag in site.tags.Toolbox -%}
+      {%- if tag[0] == "Toolbox" -%}
         {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%}
+      {%- endif -%}  
     {%- endfor -%}
 {%- endcapture -%}
 {%- assign tags_list = site_tags | split:',' | sort -%}
