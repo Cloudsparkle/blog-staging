@@ -4,9 +4,9 @@ title: "Toolbox: CopyADGroupMembers"
 categories: "Toolbox"
 tag: Powershell, Active Directory
 ---
-> *This post was originally posted on Carl Webster's site [here](https://carlwebster.com/bart-jacobss-toolbox-copyadgroupmembers/)*
-
 Another easy, simple addition to my Toolbox: a PowerShell script to copy group members from one AD group to another.
+
+> *This post was originally posted on Carl Webster's site [here](https://carlwebster.com/bart-jacobss-toolbox-copyadgroupmembers/)*
 
 Why? Because I recently needed to do precisely that: after having created a new AD Group, I needed it to have the same members as another AD Group. You can copy AD users, but not groups. Honestly, it was my initial thought I would be able to find this out there somewhere. I didn't. Some scripts I found took a user account as the basis and copied "Member Of" to another user. That's not what I needed. Other scripts were too "basic" like not offering support for an AD Forest with multiple domains.
 
