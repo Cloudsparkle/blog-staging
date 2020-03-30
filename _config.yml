@@ -22,7 +22,7 @@ description: My blog about Cloud, EUC and everything related
 navbar-links:
   About Me: "aboutme"
   Tools & Weapons:
-    - Toolbox: "toolbox"
+    - Toolbox: "/Toolboxtag"
     - Weapon Chest: "weaponchest"
   Blog: "https://www.cloudsparkle.be/blog-staging/"
 
