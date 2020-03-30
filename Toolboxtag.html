@@ -11,7 +11,7 @@ title: 'Toolbox Index'
 {%- assign tags_list = site_tags | split:',' | sort -%}
 
 {%- for tag in tags_list -%}
-  {%- if tag[0] == "toolbox" -%}
+  {%- if tag[0] == "Blog" -%}
     <a href="#{{- tag -}}" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;{{- tag -}}&nbsp;({{site.tags[tag].size}})</a>
   {%- endif -%}
 {%- endfor -%}
