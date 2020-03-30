@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Toolbox: CopyADGroupMembers"
-tag: [Powershell,Active Directory,Toolbox]
+tag: [powershell,active directory,toolbox]
 ---
 Toolbox #001: a PowerShell script to copy group members from one AD group to another.
 

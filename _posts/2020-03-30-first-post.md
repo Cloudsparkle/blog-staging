@@ -2,7 +2,7 @@
 layout: post
 title: First post!
 image: /img/hello_world.jpeg
-tag: [Blog]
+tag: [blog]
 ---
 
 This is my first post, how exciting!
