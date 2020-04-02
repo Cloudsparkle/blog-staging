@@ -17,6 +17,9 @@ I won't mention the truly basic stuff, like Office 365. Just the things that sta
 * Ticwatch S2
 * Ticpods 2
 * Kobo Auro H20
+  * My favourite e-reader, waterproof
+* Logitech K780 Multi-device keyboard
+* Logitech Wireless Mobile Mouse MX Anywhere 2S  
 
 ### Software
 
