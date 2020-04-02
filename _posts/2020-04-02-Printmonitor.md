@@ -15,4 +15,5 @@ For every successful pingable server, the script will then start with the real w
 
 When all tests and checks have finished, the script will put all results in an HTML file. That HTML file can be mailed, shared, … that's up to you.
 One more thing, the script is designed to loop continuously. There's a "sleep" parameter in case you want to run the script staggered, resulting in a more frequently updated HTML file.
+
 I've made this script also available on GitHub, and you can find the repository [here](https://github.com/Cloudsparkle/PrinterMonitor).
