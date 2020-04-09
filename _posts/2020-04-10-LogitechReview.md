@@ -13,7 +13,7 @@ I've been working remotely for some time now. But not full time. And that's an e
 ##### The solution
 So I went on a solution hunt. I've been looking at this in the past, but it didn't go through at that point in time.  So I revisited my "research" and got me a Logitech Keyboard/mouse set that handles multi-device scenarios. Enter: Logitech K780 Multi-Device Wireless Keyboard and Logitech Wireless Mobile Mouse MX Anywhere 2S.
 
-![Logitech K780](img/k780-multi-device-keyboard.png)
+![Logitech K780](/img/k780-multi-device-keyboard.png)
 
 They are not available as a single bundled SKU. It's I who chose to group them. What made me pick them? They are both supported by Logitech Flow, the software that enhances working with multiple computers.
 
