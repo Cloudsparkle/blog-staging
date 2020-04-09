@@ -5,7 +5,7 @@ tag: [Review]
 ---
 Synopsis: my very first own hardware review... of a keyboard and a mouse.
 
-> Disclaimer: this is a non-sponsored review
+> Disclaimer: this is a non-sponsored review.
 
 #### The problem
 I've been working remotely for some time now. But not full time. And that's an entirely different ball game. I've been working on multiple devices, as in multiple laptops. Which means multiple mice and keyboards. That only works for so long, to be honest, and I got fed up with it.
