@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Toolbox #003: PSProfileCleander"
+title: "Toolbox #003: PSProfileCleaner"
 tag: [PowerShell, Toolbox]
 published: true
 ---
@@ -27,4 +27,5 @@ So I wrote PSProfileCleaner, a script that deletes user profiles that are not in
 All other profiles, when not loaded (as in that user is working on the system), get deleted. All those deletions get logged in a log file at the location of your choice.
 
 By default, the script runs in a loop continuously. There is a possibility to have just one go at it, using a RunOnce parameter.
+
 As always, you can find this script on my GitHub Repo [here](https://github.com/Cloudsparkle/PSProfileCleaner).
