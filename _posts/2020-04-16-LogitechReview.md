@@ -2,7 +2,7 @@
 layout: post
 title: "Review: Logitech K780 Multi-device Wireless Keyboard"
 tag: [Review]
-published: false
+published: true
 ---
 Synopsis: my very first own hardware review... of a keyboard and a mouse.
 
