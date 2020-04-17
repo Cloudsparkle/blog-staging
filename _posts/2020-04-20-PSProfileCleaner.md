@@ -4,7 +4,7 @@ title: "Toolbox #003: PSProfileCleaner"
 tag: [PowerShell, Toolbox]
 published: true
 ---
-Synopsis: A PowerShell script to clean up those local profiles.
+Synopsis: A PowerShell script to clean up those user profiles.
 
 User profiles are as old as Windows itself. With every Windows version, something tends to change.
 Not always for the better, but that's a discussion for another time.
