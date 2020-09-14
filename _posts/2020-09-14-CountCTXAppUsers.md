@@ -26,7 +26,7 @@ They will extract all AD users and groups used for publishing. Yeah, I know, you
 And this is the most significant difference in the two scripts: how Citrix PowerShell modules return that information... To say it's different is an understatement. Actually, I don't get why this would have changed.
 In XenApp 6.5 world, it was easy and straightforward. In the new world, things just got complicated.
 
-Anyway, the script will go through all groups used (yes, it's recursive, didn't I mention that?) and count.
-When all counting is done, you'll get a nice CSV file with the info you need: App, groups and/or users used, and the total number of enabled accounts.
+Anyway, the script will go through all groups used (yes, it's recursive, didn't I mention that?) and count all enabled user accounts.
+When all counting is done, you'll get a nice CSV file with the info you need: application name, groups and/or users used, and the total number of enabled accounts.
 
 As always, you can find these scripts on my GitHub Repo [here](https://github.com/Cloudsparkle/CountCTXAppUsers).
