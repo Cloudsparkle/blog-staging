@@ -6,7 +6,7 @@ published: true
 ---
 Synopsis: A PowerShell script to clean out AD groups from disabled user accounts
 
-In a previous post, I briefly mentioned you should use AD groups for publishing Citrix applications. I think it's safe to say this goes for any EUC technology out there.
+In a previous [post](https://www.cloudsparkle.be/2020-09-14-CountCTXAppUsers/), I briefly mentioned you should use AD groups for publishing Citrix applications. I think it's safe to say this goes for any EUC technology out there.
 
 Whatever the use case, keeping your AD groups clean and clutter-free can be a challenge. I mean: it simply is a challenge. In particular, the presence of disabled AD user accounts. Removing them from a single AD group is relatively easy, using the builtin PowerShell cmdlets. In the real world out there, things are different.   
 
