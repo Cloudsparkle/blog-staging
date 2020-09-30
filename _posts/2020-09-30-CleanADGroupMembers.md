@@ -15,6 +15,7 @@ There's group nesting for one. Would you like to have those child groups cleaned
 When you do want to clean them all, that's where things get tricky. Yes, native PowerShell cmdlets do support gathering members recursively from any AD Group. However, you only get the users, not the child group they belong too. That reference is not there, which makes cleaning impossible for obvious reasons.
 
 So I wrote my own function to check the group recursively. I did also make this recursive part optional. In other words, you will be asked if you want to go all the way or not.  
+  
 The script also checks if it is being run "elevated", in other words: as an Administrator. That's something I will be adding to other scripts already out there as well.
 
 And to wrap up, by default, the script generates a CSV file with disabled accounts and the AD group they have been removed from. You know, to keep a record of things.
