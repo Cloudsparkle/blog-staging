@@ -12,8 +12,8 @@ Initially, I was about to write something just on Citrix. While correct, it woul
 
 We've all been there. The end-user reports that his Business Application is not working to their liking by some form of communication.
 That kind of message can go two ways:
-"I've got a Citrix problem because of Application X malfunctions."*
-"Application X does not work, so it has to be a Citrix problem."*
+- "I've got a Citrix problem because of Application X malfunctions."*
+- "Application X does not work, so it has to be a Citrix problem."*
 > **Replace Citrix with EUC Vendor of choice.*
 
 EUC vendors have been innovating at an extraordinary pace. Gone are the days when we have to wait for a significant OS release to get some shiny new code bits. It's always changing; to that extent, it can be a real struggle to keep up.
