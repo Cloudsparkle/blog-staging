@@ -26,12 +26,13 @@ As EUC admins, operators, specialists, (insert fancy job title here), ... we're 
 Let me unpack that.  
 
 DevOps originates from 2 words:
-- Development: the creation of new stuff
-- Operations: making sure that (new) stuff keeps running
+- Development: the creation of new stuff.
+- Operations: making sure that (new) stuff keeps running.
 
 So, why am I calling EUC engineers DevOps Engineers then?
-Operations: we need to make sure things keep running. It can be as a day to day job or to come up with a design that maximizes this simple fact: the App needs to be available.
-Development: we don't write "real" code. Not the application code itself anyway. We might need to write scripts to mitigate some application shortcomings. But more than anything, we develop the solution. The solution to the end-users problem: get that working Business Application.
+- Operations: we need to make sure things keep running. It can be as a day to day job or to come up with a design that maximizes this simple fact: the App needs to be available.
+- Development: we don't write "real" code. Not the application code itself anyway. We might need to write scripts to mitigate some application shortcomings. But more than anything, we develop the solution. The solution to the end-users problem: get that working Business Application.  
+
 So, let's reconsider for a moment. EUC engineers will need to answer the question of why it doesn't work. So why "operations" of the application is impacted. And we'll be asked to fix it or to put in another way: to develop the solution.
 
 Technology will and can help us with both of those tasks. But technology by itself will never be the solution. It will help us get there. Sometimes so fast we don't realize it. But it will always be "the tool" that will help us get there, not the endpoint of the journey of fixing something.
