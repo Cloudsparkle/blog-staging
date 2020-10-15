@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My truth on EUC, with a touch of #DevOps #
+title: My truth on EUC, with a touch of \#DevOps #
 tag: [Blog]
 ---
 
