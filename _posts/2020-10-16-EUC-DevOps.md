@@ -6,7 +6,7 @@ tag: [Blog]
 
 See what I did there? Some sneaky clickbait. But just keep reading; I promise the rest of the article is not.
 
-It's not THE truth either. It doesn't even want to be. It's my own view on the world EUC today.
+It's not ***the*** truth either. It doesn't even want to be. It's my own view on the world EUC today.
 
 Initially, I was about to write something just on Citrix. While correct, it would only be part of the story. There are other EUC vendors out there, and they are all facing similar issues.
 
