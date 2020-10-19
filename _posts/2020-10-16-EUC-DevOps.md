@@ -39,4 +39,4 @@ Technology can and will help us with both of those tasks. But technology by itse
 
 To wrap up this blog post, this is a call for action to all EUC vendors out there: if you can't explain why (new) technology will help us solve issues or make the experience better in general, go back to the drawing board and come back to us when you can. No software is perfect, no single technology solves everything. Stop pretending it does.
 
-Technology doesn't matter; it's about the people knowing how to make the most of it.
+Technology by itself doesn't matter; it's about the people knowing how to make the most of it.
