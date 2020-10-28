@@ -44,7 +44,8 @@ Several things jump out:
 
 4. The IP address.  That is something the original version didn't have. I didn't use get-netipaddress for retrieving the IP information. Instead, I resorted to a single, one-time ping. That method gives me exactly what I want: the primary IP address. And ping just works everywhere, get-netipaddress does not.  
 
-5. It is showing the computer name and IP in the balloon on two lines. That had me struggle for a while. It works, but you can't align everything properly. So visually, it's a mess. Technically, it works.
+5. It is showing the computer name and IP in the balloon on two lines. That had me struggle for a while. It works, but you can't align everything properly. So visually, it's a mess. Technically, it works.  
+
 As I mentioned before, it was all about a finished product this time. The first step was easy. I used PS2EXE to convert the PowerShell file into an executable. I've used this tool before, and it's just amazing how simple and effective it works.  
 
 Now that I've got my fancy EXE-file, the next step is distribution. After considering my options, I opted for Inno Setup Compiler through Inno Script Studio. Why? It works, it's simple, and it's easy to get started with. The installer copies the files (EXE, INI, and icon) to a folder and registers the EXE in the Registry for automatic startup. It's a SETUP.EXE, but with silent parameters (courtesy of Inno Setup, that stuff is there out of the box).  
