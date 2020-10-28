@@ -37,10 +37,10 @@ Several things jump out:
 2. There is also a non-customizable option, "Copy to ClipBoard" that copies the data shown to the clipboard for further use.  
 
 3. The INI-file: settings in that file defines several options: ShowExit, ShowUser, ShowSupportMail, and ShowSupportPortal.
-    * ShowExit: shows the Exit command in the context menu, default: 0 (disabled, not showing)
-    * ShowUser: shows the logged-on user next to computer name and IP address, default: 1 (showing)
-    * ShowSupportMail: shows the right-click menu to create a new mail to support. The email address to send this to is also defined in the INI-file, under SupportMail.
-    * ShowSupportPoral: shows the right-click menu to open the Support Web Portal using the default browser. The URL is also defined in the INI-file, under SupportPortal.  
+    * ShowExit: shows the Exit command in the context menu. Default value: 0 (disabled, not showing).  
+    * ShowUser: shows the logged-on user next to computer name and IP address. Default value: 1 (enabled, showing).
+    * ShowSupportMail: shows the right-click menu to create a new mail to support. The email address to send this to is also defined in the INI-file, under SupportMail. Default value: 0 (disabled, not showing).
+    * ShowSupportPoral: shows the right-click menu to open the Support Web Portal using the default browser. The URL is also defined in the INI-file, under SupportPortal. Default value: 0 (disabled, not showing).  
 
 4. The IP address.  That is something the original version didn't have. I didn't use get-netipaddress for retrieving the IP information. Instead, I resorted to a single, one-time ping. That method gives me exactly what I want: the primary IP address. And ping just works everywhere, get-netipaddress does not.  
 
