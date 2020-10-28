@@ -55,7 +55,7 @@ As I mentioned before, it was all about a finished product this time. The first 
 
 Now that I've got my fancy EXE-file, the next step is distribution. After considering my options, I opted for Inno Setup Compiler through Inno Script Studio. Why? It works, it's simple, and it's easy to get started with. The installer copies the files (EXE, INI, and icon) to a folder and registers the EXE in the Registry for automatic startup. It's a SETUP.EXE, but with silent parameters (courtesy of Inno Setup, that stuff is there out of the box).  
 
-Time to wrap this up. What set out to be a "quick" PowerShell conversion of an existing tool turned into something a lot bigger. "Feature Creep" is a real thing.  I felt it. If that much so, I'm considering doing a "Lite" version, with no options at all. If I decide to publish, you'll read all about it on this blog.
+Time to wrap this up. What set out to be a "quick" PowerShell conversion of an existing tool turned into something a lot bigger. "Feature Creep" is a real thing.  I felt it. That much so, I'm considering doing a "Lite" version, with no options at all. If I decide to publish, you'll read all about it on this blog.
 
 As always, you can find these scripts on my GitHub Repo [here](https://github.com/Cloudsparkle/PSHostInfo).
 There is also a genuine release on Github, including setup.exe. Go download this [here](https://github.com/Cloudsparkle/PSHostInfo/releases/tag/v1.0).
