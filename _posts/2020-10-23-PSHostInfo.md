@@ -24,7 +24,7 @@ Getting to that particular endstate quickly introduced its own set of challenges
 Kae Travis - https://www.alkanesolutions.co.uk/2019/10/10/obtaining-the-current-working-directory-using-powershell/  
 Dave Wyatt - https://powershell.org/forums/topic/compile-ps1-to-exe/
 
-And that's not all. I also decided to use a function to read a config.ini file. My source of inspiration:
+And that's not all. I also decided to use a function to read a config.ini file. My source of inspiration:  
 Oliver Lipkau - https://gallery.technet.microsoft.com/scriptcenter/ea40c1ef-c856-434b-b8fb-ebd7a76e8d91
 
 So, what else of my own creative code did I put into the script?
