@@ -31,16 +31,19 @@ So, what else of my own creative code did I put into the script?
 
 Several things jump out:
 1. There's a context menu, customizable through the INI-file; see below.  These customizable options include:
-  - Exit
-  - Support email
-  - Support portal
-2. There is also a non-customizable option, "Copy to ClipBoard" that copies the data shown to the clipboard for further use.
+    * Exit
+    * Support email
+    * Support portal
+2. There is also a non-customizable option, "Copy to ClipBoard" that copies the data shown to the clipboard for further use.  
+
 3. The INI-file: settings in that file defines several options: ShowExit, ShowUser, ShowSupportMail, and ShowSupportPortal.
     * ShowExit: shows the Exit command in the context menu, default: 0 (disabled, not showing)
-  - ShowUser: shows the logged-on user next to computer name and IP address, default: 1 (showing)
-  - ShowSupportMail: shows the right-click menu to create a new mail to support. The email address to send this to is also defined in the INI-file, under SupportMail.
-  - ShowSupportPoral: shows the right-click menu to open the Support Web Portal using the default browser. The URL is also defined in the INI-file, under SupportPortal.  
+    * ShowUser: shows the logged-on user next to computer name and IP address, default: 1 (showing)
+    * ShowSupportMail: shows the right-click menu to create a new mail to support. The email address to send this to is also defined in the INI-file, under SupportMail.
+    * ShowSupportPoral: shows the right-click menu to open the Support Web Portal using the default browser. The URL is also defined in the INI-file, under SupportPortal.  
+
 4. The IP address.  That is something the original version didn't have. I didn't use get-netipaddress for retrieving the IP information. Instead, I resorted to a single, one-time ping. That method gives me exactly what I want: the primary IP address. And ping just works everywhere, get-netipaddress does not.  
+
 5. It is showing the computer name and IP in the balloon on two lines. That had me struggle for a while. It works, but you can't align everything properly. So visually, it's a mess. Technically, it works.
 As I mentioned before, it was all about a finished product this time. The first step was easy. I used PS2EXE to convert the PowerShell file into an executable. I've used this tool before, and it's just amazing how simple and effective it works.  
 
@@ -49,7 +52,4 @@ Now that I've got my fancy EXE-file, the next step is distribution. After consid
 Time to wrap this up. What set out to be a "quick" PowerShell conversion of an existing tool turned into something a lot bigger. "Feature Creep" is a real thing.  I felt it. If that much so, I'm considering doing a "Lite" version, with no options at all. If I decide to publish, you'll read all about it on this blog.
 
 As always, you can find these scripts on my GitHub Repo [here](https://github.com/Cloudsparkle/PSHostInfo).
-There is also a genuine release on Github, including setup.exe. Go download this [here](https://github.com/Cloudsparkle/PSHostInfo/releases/tag/v1.0)
-
-2. Item
-    * Mixed
+There is also a genuine release on Github, including setup.exe. Go download this [here](https://github.com/Cloudsparkle/PSHostInfo/releases/tag/v1.0).
