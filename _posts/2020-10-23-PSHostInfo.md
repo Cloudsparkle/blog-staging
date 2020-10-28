@@ -15,17 +15,18 @@ In 2020, the time has come to revisit this tool. I wrote the original using Auto
 As a reminder: the simple use case for this tool. Its function is to display an icon in the notification area (you know, next to the clock) and when the user hovers over that icon, show the computer name. This can come in handy in all kinds of helpdesk scenarios. Any time the helpdesk asks you to supply the name of the computer (or Citrix/VMWare/... desktop), this is where this tool comes in. It's always available in the same location; the instructions are always the same.  It's just easy and straightforward.
 
 So I set out to rewrite the tool in PowerShell. In all openness, I didn't start with a blank sheet of paper. I did some research first. My script was mainly inspired by:
-Denniver Reining - https://bytecookie.wordpress.com/2011/12/28/gui-creation-with-powershell-part-2-the-notify-icon-or-how-to-make-your-own-hdd-health-monitor/.  
+- Denniver Reining - https://bytecookie.wordpress.com/2011/12/28/gui-creation-with-powershell-part-2-the-notify-icon-or-how-to-make-your-own-hdd-health-monitor/.    
+
 Key takeaway: when creating a GUI, don't use a loop, don't use start-sleep, use a Timer Object instead. It's important.
 
 From the start, I knew the result I was aiming for was a finished product: my tool, compiled to an executable, installed by "setup.exe" or MSI.
 Getting to that particular endstate quickly introduced its own set of challenges. For example, getting the current running directory sounds simple right? It does sound simple, and then you find out ISE reacts differently to the console, and that behavior changes again after generating an EXE-file based on the PowerShell code. I wasn't the only one dealing with this issue, and this is by far the most straightforward solution I could find:
 
-Kae Travis - https://www.alkanesolutions.co.uk/2019/10/10/obtaining-the-current-working-directory-using-powershell/  
-Dave Wyatt - https://powershell.org/forums/topic/compile-ps1-to-exe/
+- Kae Travis - https://www.alkanesolutions.co.uk/2019/10/10/obtaining-the-current-working-directory-using-powershell/  
+- Dave Wyatt - https://powershell.org/forums/topic/compile-ps1-to-exe/
 
 And that's not all. I also decided to use a function to read a config.ini file. My source of inspiration:  
-Oliver Lipkau - https://gallery.technet.microsoft.com/scriptcenter/ea40c1ef-c856-434b-b8fb-ebd7a76e8d91
+- Oliver Lipkau - https://gallery.technet.microsoft.com/scriptcenter/ea40c1ef-c856-434b-b8fb-ebd7a76e8d91
 
 So, what else of my own creative code did I put into the script?
 
