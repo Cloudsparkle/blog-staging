@@ -21,14 +21,18 @@ These may very well be accurate statements. But PowerShell is my weapon of choic
 
 So, there I was running a couple of those scripts. Until I realized they were getting slower with each loop. Then I looked at Task Manager and immediately saw the root issue of that slowness: memory usage was through the roof. Sure, I could restart those scripts by hand every day or so. But that defeated the very purpose of those scripts: automation.
 So I went on the hunt. The solution I found everywhere:  
-> *[System.gc]::Collect()  
+> [System.gc]::Collect()  
 
 This command triggers .NET memory garbage collection to be run. And memory usage reduced as a result.
-So after adding this to my infinite loop, I saw Powershell memory usage actually drop after each loop. What a beautiful sight. Please make sure the garbage collection can actually do it's thing, so a little "sleep" can be handy.
-Just make sure to run the script in a PowerShell session and not in ISE. I know it's tempting to do some tweaks and start the script loop again. Please don't do it. Memory usage will be through the roof, no matter what you do to optimize.
-You can actually track memory usage and garbage collection results by running this before:
-write-host "Memory used before collection: "([System.GC]::GetTotalMemory($false))"
-And this one after the collection:
-write-host "Memory used after full collection: $([System.GC]::GetTotalMemory($true))"
+So after adding this to my infinite loop, I saw Powershell memory usage actually drop after each loop. What a beautiful sight. Please make sure the garbage collection can actually do it's thing, so a little "sleep" can be handy.  
+
+Just make sure to run the script in a PowerShell session and not in ISE. I know it's tempting to do some tweaks and start the script loop again. Please don't do it. Memory usage will be through the roof, no matter what you do to optimize.  
+
+You can actually get real nerdy and track memory usage and garbage collection results by running these commands.
+Before:
+> write-host "Memory used before collection: "([System.GC]::GetTotalMemory($false))"  
+
+After:
+> write-host "Memory used after full collection: $([System.GC]::GetTotalMemory($true))"  
 
 Bottom line: for anyone running PowerShell scripts in an infinite loop: insert that command to get your memory usage under control. And don't run in ISE.
