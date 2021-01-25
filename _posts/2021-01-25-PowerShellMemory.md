@@ -30,7 +30,7 @@ Just make sure to run the script in a PowerShell session and not in ISE. I know 
 
 You can actually get real nerdy and track memory usage and garbage collection results by running these commands.
 Before:
-> write-host "Memory used before collection: "([System.GC]::GetTotalMemory($false))"  
+> write-host "Memory used before collection: $([System.GC]::GetTotalMemory($false))"  
 
 After:
 > write-host "Memory used after full collection: $([System.GC]::GetTotalMemory($true))"  
