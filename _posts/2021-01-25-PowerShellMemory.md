@@ -28,7 +28,8 @@ So after adding this to my infinite loop, I saw Powershell memory usage actually
 
 Just make sure to run the script in a PowerShell session and not in ISE. I know it can be tempting to do some quick tweaks and start the script loop again. Please don't do it. Memory usage will be through the roof, no matter what you do to optimize.  
 
-You can actually get real nerdy and track memory usage and garbage collection results by running these commands.
+You can actually get real nerdy and track memory usage and garbage collection results by running these commands.  
+
 Before:
 > write-host "Memory used before collection: $([System.GC]::GetTotalMemory($false))"  
 
