@@ -24,4 +24,4 @@ It would also not be possible without my wife and family. Their patience with me
 
 By all means, I'm deeply honored and humbled to be writing this announcement today. It has been an incredible journey so far, and it's only just the beginning.
 
-THANK YOU!
+# THANK YOU!
