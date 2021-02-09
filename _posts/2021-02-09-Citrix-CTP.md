@@ -16,7 +16,7 @@ Let's take a trip down memory lane first.
 
 Yes, indeed, today I was awarded the Citrix Technology Professional award, CTP for short.
 
-![Citrix CTP](/img/CTP-Digital-Badge-Color-2x.png)
+![Citrix CTP](/img/CTP-Badge.png)
 
 I would not be here without a lot of people. The EUC and Citrix community in general, but I would like to call out Carl Webster by name. He granted me the right the publish my articles on his site. That was the spark I needed to take off.
 
