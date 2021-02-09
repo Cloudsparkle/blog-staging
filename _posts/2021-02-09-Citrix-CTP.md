@@ -9,7 +9,7 @@ published: true
 Let's take a trip down memory lane first.  
 
 2013...My very first post, on carlwebster.com  
-2017...First post on mycugc.com  
+2017...First post on www.mycugc.org  
 2019...CTA award!  
 2020...This blog was born     
 2021...CTP award!  
