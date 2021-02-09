@@ -8,11 +8,11 @@ published: true
 
 Let's take a trip down memory lane first.  
 
-2013... My very first post, on carlwebster.com  
-2017... First post on mycugc.com  
-2019... CTA Award  
-2020... This blog was born   
-2021... CTP award!  
+2013...My very first post, on carlwebster.com  
+2017...First post on mycugc.com  
+2019...CTA Award  
+2020...This blog was born   
+2021...CTP award!  
 
 Yes, indeed, today I was awarded the Citrix Technology Professional award, CTP for short.
 
