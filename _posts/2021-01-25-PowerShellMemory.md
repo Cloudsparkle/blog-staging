@@ -2,7 +2,7 @@
 layout: post
 title: "Running PowerShell 24/7 and memory usage"
 tag: [Powershell,Blog]
-published: true
+published: false
 ---
 Synopsis: Handling memory usage in 24/7 PowerShell scripts
 
