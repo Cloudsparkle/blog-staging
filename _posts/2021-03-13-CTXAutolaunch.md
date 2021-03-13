@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Toolbox #008: CTXAutolaunc"
+title: "Toolbox #008: CTXAutolaunch"
 tag: [PowerShell, Toolbox]
-published: true
+published: false
 ---
 Synopsis: A PowerShell tool to launch Citrix Published resources (automatically).
 
-Recently I found myself in need of yet another tool: I needed to autologin into a Windows device (Thin-client anyone?) and auto-launch a particular Citrix published resource. The autologin to Windows part was the easy one; that's nothing more than a quick registry fix and be done with it.
+Recently I found myself in need of yet another tool: I needed to autologin into a Windows device (Win10 IoT Thin-client anyone?) and auto-launch a particular Citrix published resource. The autologin to Windows part was the easy one; that's nothing more than a quick registry fix and be done with it.
 
 Now, for the auto-launch of the Citrix published application. There is a KB article out there that pretty much lays it all out: https://support.citrix.com/article/CTX228550.
 
@@ -15,7 +15,7 @@ Sure...on a single device, with a single user. But what about an automated deplo
 
 The nice part: it's all there in the registry. You need to set up favorites or block favorites altogether; then, everything is a favorite for the registry anyway. Just be careful; workspace uses a different name for a particular registry key. In the end, that's just a little something to cover in a script.
 
-Now, onto the tricky part. After logon, Receiver/Workspace will load. When? That's a question. "It depends". When it does, it takes some time for SSO to sign in. Luckily, there a way around that too. It's all in the script.
+Now, onto the tricky part. After logon, Receiver/Workspace will load. When? That's an excellent question. "It depends". When it does, it takes some time for SSO to sign in. Luckily, there a way around that too. It's all in the script.
 
 With all that "waiting" and loading, you need to give the user something to look at in the meantime. So I decided it's about time to introduce a splash-screen. It uses WPF and has given me some frustrations, to say the least. My source of inspiration was right here: https://www.dev4sys.com/2016/06/powershellwpf-part-iii-how-to-load.html
 
