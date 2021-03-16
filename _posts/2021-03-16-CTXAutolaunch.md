@@ -27,7 +27,5 @@ Yes, that's right. It just needs a little power nap, and then it's good to go. A
 
 You do need to feed it the name of the published resource, and if it's in the favorites, it will just launch right on queue.
 
-As always, I've published this one on GitHub here. There's a release, too, with a proper setup to get you going.
-
 As always, you can find these scripts on my GitHub Repo [here](https://github.com/Cloudsparkle/CTXAutoLaunch).
-There is also a genuine release on Github, including setup.exe. Go download this [here](https://github.com/Cloudsparkle/PSHostInfo/releases/tag/v1.0).
+There is also a genuine release on Github, including setup.exe. Go download this [here](https://github.com/Cloudsparkle/CTXAutoLaunch/releases/tag/v1.0).
