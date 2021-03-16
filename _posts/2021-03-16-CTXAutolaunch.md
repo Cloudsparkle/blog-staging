@@ -2,7 +2,7 @@
 layout: post
 title: "Toolbox #008: CTXAutolaunch"
 tag: [PowerShell, Toolbox]
-published: false
+published: true
 ---
 Synopsis: A PowerShell tool to launch Citrix Published resources (automatically).
 
