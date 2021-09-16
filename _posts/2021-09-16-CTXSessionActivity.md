@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Toolbox #009: Citrix UPM fix"
+title: "Toolbox #010: Counting Session Logon and Logoff"
 tag: [Powershell, Toolbox]
 published: true
 ---
