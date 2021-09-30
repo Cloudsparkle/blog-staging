@@ -2,7 +2,7 @@
 layout: post
 title: "Toolbox #010: Counting Session Logon and Logoff"
 tag: [Powershell, Toolbox]
-published: false
+published: true
 ---
 Synopsis: Count those session logon and logoff events
 
