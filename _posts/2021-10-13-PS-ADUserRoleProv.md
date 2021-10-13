@@ -2,7 +2,7 @@
 layout: post
 title: "Toolbox #011: a simple provisioning tool"
 tag: [Powershell, Toolbox]
-published: false
+published: true
 ---
 Synopsis: Provide a simple tool to provision application resources
 
