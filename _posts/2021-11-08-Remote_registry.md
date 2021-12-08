@@ -17,7 +17,7 @@ First of all, I tried to use PowerShell remoting. But, unfortunately, using just
 Not all was lost because while WinRM seemed to be a dead-end, I was able to use Regedit and connect to the remote registry. So again, this was something I could use.
 So, these lines will give me the computer name. And let's just get the name of the currently logged-on user for good measure.
 
-{% highlight powershell %}
+```powershell
 $computer = "192.168.1.15"
 $RegLM = [Microsoft.Win32.RegistryKey]::OpenRemoteBaseKey('LocalMachine', $computer)
 $RegKeyLM = $RegLM.OpenSubKey("SYSTEM\\CurrentControlSet\\Control\\ComputerName\\ActiveComputerName")
@@ -26,7 +26,7 @@ $Computername = $RegKeyLM.GetValue("ComputerName")
 $user = (Get-CimInstance -ClassName Win32_ComputerSystem -ComputerName $computerName).UserName
 
 Write-Host $Computername, $user
-{% endhighlight %}.
+```
 
 Yes, for the user name, I do use WinRM. Because I can, and I have the computer name at that point.
 
