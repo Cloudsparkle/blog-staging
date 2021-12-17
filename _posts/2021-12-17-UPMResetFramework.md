@@ -2,7 +2,7 @@
 layout: post
 title: "Toolbox #0012: Citrix UPM Reset Tool"
 tag: [Powershell, Toolbox]
-published: true
+published: false
 ---
 Synopsis: Citrix UPM reset framework
 
