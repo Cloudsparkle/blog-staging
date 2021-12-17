@@ -33,8 +33,4 @@ These are the scripts that need to be running all the time, using an account tha
 
 All scripts use AD groups to process the user and move it to a "Done" group when... yes, that's right, the scripts are done.
 
-I built these scripts some time ago, and I made them publicly available on GitHub here.
-
-
-
-As always, I've published the script on GitHub [here](https://github.com/Cloudsparkle/PS-ADUserRoleProv).
+I built these scripts some time ago, and just recently I made them publicly available on GitHub [here](https://github.com/Cloudsparkle/UserProfileReset).
