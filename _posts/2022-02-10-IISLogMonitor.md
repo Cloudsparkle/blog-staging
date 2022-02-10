@@ -2,7 +2,7 @@
 layout: post
 title: "Toolbox #0013: IISLogMonitor"
 tag: [Powershell, Toolbox]
-published: false
+published: true
 ---
 Synopsis: Continuous IIS Log file monitoring
 
