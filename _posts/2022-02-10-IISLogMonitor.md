@@ -6,7 +6,7 @@ published: true
 ---
 Synopsis: Continuous IIS Log file monitoring
 
-There are times when a Quick Post (in this case Quickpost #0003, [here](https://www.cloudsparkle.be/2022-02-07-Remote_registry_part2/)) becomes used in a full-fledged tool in the Toolbox. Initially, I planned for QuickPost #0002 [(here)](https://www.cloudsparkle.be/2021-12-08-Remote_registry/)to become a part of this tool. Plans change.
+There are times when a Quick Post (in this case Quickpost #0003, [here](https://www.cloudsparkle.be/2022-02-07-Remote_registry_part2/)) becomes used in a full-fledged tool in the Toolbox. Initially, I planned for QuickPost #0002 [(here)](https://www.cloudsparkle.be/2021-12-08-Remote_registry/) to become a part of this tool. Plans change.
 
 This toolbox item is also related to one from some time ago. Quite a long time ago already. Please read all about it [here](https://www.cloudsparkle.be/2020-07-10-GetIISLogEndpoints/).
 
