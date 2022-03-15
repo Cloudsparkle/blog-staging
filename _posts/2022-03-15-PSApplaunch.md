@@ -2,7 +2,7 @@
 layout: post
 title: "Toolbox #0014: PS-Applaunch"
 tag: [Powershell, Toolbox]
-published: true
+published: false
 ---
 Synopsis: Published application launcher
 
@@ -17,7 +17,7 @@ Speaking of old, the basis for this tool started in need for a launcher tool to 
 
 Another reason for that launcher tool to exist is the ability to wait for something to be completed before starting the actual application, like a logon script, for example.
 
-Yes, exactly the use case James was referring to. And I took a different approach. Having just changed the configuration of a few hundred published applications, I didn't feel that the need to change that is a blocking issue. Yes, it's a one-time change, but it can be planned and executed in steps. There's no need for a big bang. Just start with the applications that generate help desk tickets, and it will all be okay in the end.
+Yes, exactly the use case James was referring to. And I took a different approach. Having just changed the configuration of a few hundred published applications, I didn't feel that the need to change that, is a blocking issue. Yes, it's a one-time change, but it can be planned and executed in steps. There's no need for a big bang. Just start with the applications that generate help desk tickets, and it will all be okay in the end.
 
 So, back to technical stuff. I set out to create a framework application, a launcher tool to launch all other applications.
 
@@ -33,6 +33,7 @@ The features:
 
 An INI-file is used to store all the configuration options. Let's go over them in an example.
 
+Demo.ini:
 ```
 [LAUNCH]
 AppEXEPath = C:\windows\explorer.exe
@@ -52,6 +53,8 @@ LoadingLabel = Getting Stuff Ready
 LoadingForeground = Black
 BackgroundColor = #db0f16
 ```
+
+Demo.ini explained:
 ```
 [LAUNCH]
 AppEXEPath = full path to main executable to be launched
