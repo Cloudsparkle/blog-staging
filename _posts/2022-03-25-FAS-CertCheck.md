@@ -2,7 +2,7 @@
 layout: post
 title: "Toolbox #0014: FAS-CertCheck"
 tag: [Powershell, Toolbox]
-published: true
+published: false
 ---
 Synopsis: Check certificates for Citrix FAS.
 
@@ -21,7 +21,7 @@ PsExec is part of the Sysinternals suite. So the next step is to load the Certif
 
 And now to the fun part. You don't have to run mmc.exe; you can also run PowerShell. And run the CertCheck.ps1 from my toolbox. The ultimate goal of that script was to write an alert to the event log. However, that's not possible. The CertCheck.ps1 needs to run as the "Network Service" account. And that account does not have the right to write to the event log. So instead, the CertCheck script will output a CSV file, which can be picked up by another script (WriteEventlog.ps1).  
 
-The script loops through all certificates, finds the Authorization certificate, and determines if there is a need for action. It will generate a message if the certificate has already expired or expires in 1/7/30 days. This should give you ample time to take action. 
+The script loops through all certificates, finds the Authorization certificate, and determines if there is a need for action. It will generate a message if the certificate has already expired or expires in 1/7/30 days. This should give you ample time to take action.
 
 You should be able to run the CertCheck.ps1 script as a scheduled task using the "Network Security" account. And a separate scheduled task for the WriteEventlog script.
 
