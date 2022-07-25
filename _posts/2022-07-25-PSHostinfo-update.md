@@ -13,7 +13,8 @@ What has changed?
 I updated the code to include minor fixes in reading the INI file values (or lack thereof). Let's call those minor bug fixes and performance improvements.
 Next, two new actions:
 - Citrix workspace app, icon refresh
-- Citrix workspace app, reset user config
+- Citrix workspace app, reset user config  
+
 Both actions will only be available if
 a) turned on in the config.ini file
 and b) Citrix Workspace App is present on the system.
