@@ -2,7 +2,7 @@
 layout: post
 title: "QuickPost #0007: PSHostInfo updated"
 tag: [QuickPost, Powershell]
-published: true
+published: false
 ---
 Synopsis: PSHostInfo, updated
 
@@ -19,4 +19,4 @@ Both actions will only be available if the option is turned on in config.ini and
 
 I updated my GitHub repo [here](), including an updated installer of the compiled executable. Caution: I used PS2EXE for this one so that it might trigger some false positives in your AV.
 
-Stay safe
+Stay safe!
