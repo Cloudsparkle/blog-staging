@@ -15,10 +15,8 @@ Next, two new actions:
 - Citrix workspace app, icon refresh
 - Citrix workspace app, reset user config  
 
-Both actions will only be available if:
-a) turned on in the config.ini file
-a) Citrix Workspace App is present on the system.
+Both actions will only be available if the option is turned on in config.ini and Citrix Workspace App is present on the system.
 
-I updated my GitHub repo here, including an updated installer of the compiled executable. Caution: I used PS2EXE for this one so that it might trigger some false positives in your AV.
+I updated my GitHub repo [here](), including an updated installer of the compiled executable. Caution: I used PS2EXE for this one so that it might trigger some false positives in your AV.
 
 Stay safe
