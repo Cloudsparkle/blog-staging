@@ -15,11 +15,12 @@ And yes, you can set a Citrix policy to log off disconnected sessions after a sp
 Hence, I created a new tool. The script is meant to be running on a batch server. Therefore, it is designed to be able to reach out to multiple environments and keep them all in check. An INI file stores the configuration details for those multiple environments and applications to monitor.
 
 This is the structure of the INI file:
-[DDC1]
-PublishedApp1 = Application number 1
-[DDC2]
-PublishedApp1 = Application number 2
-
+```
+[DDC1]  
+PublishedApp1 = Application number 1  
+[DDC2]  
+PublishedApp1 = Application number 2  
+```
 The script uses sections for the names of the Delivery controllers. The keys below each section are the applications to monitor for disconnected sessions.
 
 When the script finds a disconnected session, the session is logged off.
