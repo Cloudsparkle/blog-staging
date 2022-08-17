@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Toolbox #0017: CTXDisconnectedMonitor"
+title: "Toolbox #0017: CTX-DisconnectedMonitor"
 tag: [Powershell, Toolbox]
 published: false
 ---

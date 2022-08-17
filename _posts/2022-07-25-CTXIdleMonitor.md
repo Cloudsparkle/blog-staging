@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "QuickPost #0008: CTXIdleMonitor"
+title: "QuickPost #0008: CTX-IdleMonitor"
 tag: [Toolbox, Powershell]
 published: false
 ---
@@ -11,6 +11,6 @@ In this quick post, I want to discuss a minor variation to CTXDisconnectedMonito
 
 It does not take a lot of imagination what that could be. Instead of looking for sessions in a disconnected state, the script looks for idle sessions and logs them off. All the other logic is identical to CTXDisconnectedMonitor.
 
-I did put this script variation in its repository on Github here.
+I did put this script variation in its repository on Github [here](https://github.com/Cloudsparkle/CTX-IdleMonitor).
 
 Stay safe!
