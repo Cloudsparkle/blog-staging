@@ -2,7 +2,7 @@
 layout: post
 title: "QuickPost #0007: PSHostInfo updated"
 tag: [QuickPost, Powershell]
-published: false
+published: true
 ---
 Synopsis: PSHostInfo, updated
 
@@ -17,6 +17,6 @@ Next, two new actions:
 
 Both actions will only be available if the option is turned on in config.ini and Citrix Workspace App is present on the system.
 
-I updated my GitHub repo [here](), including an updated installer of the compiled executable. Caution: I used PS2EXE for this one so that it might trigger some false positives in your AV.
+I updated my GitHub repo [here](https://github.com/Cloudsparkle/PSHostInfo), including an updated installer of the compiled executable. Caution: I used PS2EXE for this one so that it might trigger some false positives in your AV.
 
 Stay safe!
