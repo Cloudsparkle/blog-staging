@@ -20,6 +20,7 @@ This is the structure of the INI file:
 PublishedApp1 = Application number 1  
 [DDC2]  
 PublishedApp1 = Application number 2  
+PublishedApp2 = Application number 3    
 ```
 The script uses sections for the names of the Delivery controllers. The keys below each section are the applications to monitor for disconnected sessions.
 
