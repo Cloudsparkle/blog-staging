@@ -2,7 +2,7 @@
 layout: post
 title: "Toolbox #0017: CTX-DisconnectedMonitor"
 tag: [Powershell, Toolbox]
-published: false
+published: true
 ---
 Synopsis: Taking care of disconnected sessions
 
@@ -30,7 +30,7 @@ Hold on; a session is not always just one application, right? There could be oth
 
 I did consider putting some logging into the script but decided against it. Why? Every action the script takes is already visible in standard logging in Citrix Studio.
 
-As you have learned from a post a while back (here), I also included some memory cleanup to be done. This script does need to keep on running.
+As you have learned from a post a while back [here](https://www.cloudsparkle.be/2021-05-06-PowerShellMemory/), I also included some memory cleanup to be done. This script does need to keep on running.
 
 As always, you can find everything on my GitHub [here](https://github.com/Cloudsparkle/CTXDisconnectedMonitor).
 
