@@ -21,5 +21,6 @@ A very crucial detail is the naming of the delivery groups. They should end with
 
 Once the applications have been switched, the script monitors last week's servers, logging off idle and disconnected sessions. After some time, those servers will be void of any session and ready for the final task of the script: do a proper Citrix reboot. Meaning: a reboot that MCS needs to work its magic.
 
-As always, you can find the script on GitHub [here](https://github.com/Cloudsparkle/CTX-AppSwitchDG)
+As always, you can find the script on GitHub [here](https://github.com/Cloudsparkle/CTX-AppSwitchDG).  
+
 Stay safe!
