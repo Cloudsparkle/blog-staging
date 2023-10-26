@@ -4,7 +4,7 @@ title: "Toolbox #0020: CTX-FixSSLCertOnDDC"
 tag: [Powershell, Toolbox]
 published: true
 ---
-Synopsis: let's fix and future proof the use of SSL on a Delivery Controller
+Synopsis: let's fix and future-proof the use of SSL certificate binding on a Delivery Controller.
 
 Today's topic is some basic security. As a Citrix admin, that means you would probably have used (or looked at) KB articles like this one: https://support.citrix.com/article/CTX218986/secure-xml-traffic-between-storefront-and-delivery-controller-7x.
 
