@@ -4,7 +4,7 @@ title: "Toolbox #0019: CTX-FixHostingConnection"
 tag: [Powershell, Toolbox]
 published: true
 ---
-Synopsis: let's that Vmware hosting connection.
+Synopsis: let's fix that Vmware hosting connection.
 
 Every Citrix admin comes across this screen at some point in their career:
 
@@ -19,7 +19,7 @@ Some Citrix KB articles try to cover this: https://support.citrix.com/article/CT
 3. Replace the SSL thumbprint of the broken connection with the one from the new connection.
 4. Clean up the new hosting connection.
 
-If I had the desire to perform these actions manually, I would not be writing this post. So I created a little script designed to run on a Delivery Controller, that takes care of those steps for the most part. You will still have to create the new hosting connection yourself. 
+If I had the desire to perform these actions manually, I would not be writing this post. So I created a little script designed to run on a Delivery Controller, that takes care of those steps for the most part. You will still have to create the new hosting connection yourself.
 I did include the cleanup function, so let this be a loud and very clear warning: use this script at your own risk. I'm not taking any responsibility for any issue! And I'm asking if you are sure, you know, to be sure.
 
 I could have stopped there, but I wanted to include something extra.   What kind of extra do you ask? The script will ask you to provide credentials for your service account. So I assumed that there would be a lot of environments that use Active Directory for those. And I wrote some code that verifies the credentials you entered. If they are invalid, the script will keep asking you until you enter working credentials or press cancel.
